@@ -34,7 +34,7 @@ try {
         lastSeen: Date.now()
     })
     await setDoc(doc(db, "chats", user.uid), {
-        chatData: [],
+        chatsData: [],
 
     })
 } catch (error) {
